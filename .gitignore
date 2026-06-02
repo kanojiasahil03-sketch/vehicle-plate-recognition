@@ -1,0 +1,21 @@
+# Ignore all result runs except last two
+results/run_*/
+results/exp1_run_*/
+results/debug_*/
+results/annotated.jpg
+results/plate_crop.jpg
+results/plate_crop_raw.jpg
+
+# Keep only specific runs (add your last two run folder names below)
+!results/run_20260601_133427/
+!results/exp1_run_20260601_174356/
+
+# Ignore large files
+models/
+License-Plate-Recognition-1/
+Number-Plates-1/
+training.log
+training2.log
+yolov8n.pt
+__pycache__/
+*.pyc

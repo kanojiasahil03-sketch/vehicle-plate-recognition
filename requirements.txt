@@ -1,0 +1,7 @@
+ultralytics
+easyocr
+fast-plate-ocr[onnx]
+opencv-python
+numpy
+roboflow
+matplotlib
